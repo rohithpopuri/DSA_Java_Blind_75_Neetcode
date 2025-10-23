@@ -1,5 +1,6 @@
 class Solution {
     public boolean isAnagram(String s, String t) {
+        //FIRST APPROACH
     //     Map<Character,Integer> counts= new HashMap<>();
     //     Map<Character,Integer> countt= new HashMap<>();
 
@@ -20,7 +21,7 @@ class Solution {
     //    }
     //    return true ;
 
-
+//OPTIMISED APPORACH
 
         if (s.length() != t.length()) return false;
         
