@@ -22,7 +22,6 @@ class Solution {
 
         while(l<=r){
             int m = (l+r)/2;
-            System.out.println(m);
             if (nums[m]>target){
               r=m-1;
                 
