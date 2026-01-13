@@ -16,10 +16,6 @@ class Solution {
             sortarr[i]=nums2[i-nums1.length];
         }
         Arrays.sort(sortarr);
-
-        double mid = (size-1)/2.0;
-
-
         if ((size-1)%2==0){
             int mid_1=(size-1)/2;
             return sortarr[mid_1];
